@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Đảm bảo responsive trên mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Điểm danh thành công</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #9CC4FD, #E0C3FF);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Container với hiệu ứng pop-in và backdrop-filter cho cảm giác mờ nhẹ */
+    .container {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      padding: 50px 70px; 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      animation: popIn 0.6s ease-out;
+      backdrop-filter: blur(10px);
+    }
+    /* Hiệu ứng cho tiêu đề */
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    /* Icon checkmark với animation bounce */
+    .checkmark {
+      font-size: 4rem;
+      color: green;
+      margin-bottom: 20px;
+      animation: bounce 1s infinite;
+    }
+    /* Keyframes cho hiệu ứng popIn */
+    @keyframes popIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    /* Keyframes cho hiệu ứng bounce */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+    /* Media query cho mobile */
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      .checkmark {
+        font-size: 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="checkmark">✓</div>
+    <h1>Bạn đã điểm danh thành công!</h1>
+  </div>
+</body>
+</html>
