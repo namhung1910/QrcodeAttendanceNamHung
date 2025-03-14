@@ -130,7 +130,3 @@ Dự án được phát triển bởi 4 thành viên:
 | Hoàng Mạnh Linh | Biên soạn tài liệu Overleaf, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
 | Đào Đức Mạnh    | Thiết kế slide PowerPoint, hỗ trợ bài tập lớn.  |
 | Cao Văn Huy     | Hỗ trợ bài tập lớn       |
-## 📧 Liên Hệ
-Nếu có bất kỳ thắc mắc hoặc góp ý nào, vui lòng liên hệ với tác giả:
-
-📩 Email: namhung1910@gmail.com
