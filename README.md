@@ -5,7 +5,7 @@ HỆ THỐNG ĐIỂM DANH SINH VIÊN </h1>
 
 <p align="center">
   <img src="images/logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
-  <img src="images/LogoAIotLab.png" alt="AIoTLab Logo" width="170"/>
+  <img src="images/LogoAIoTLab.png" alt="AIoTLab Logo" width="170"/>
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -85,7 +85,7 @@ Cài đặt các thư viện bằng lệnh:
 ## 🧮 Bảng mạch
 
 ### 🔩 Kết nối phần cứng:
-<img src="images/ketnoiphancung.png" alt="System Architecture" width="800"/>
+<img src="images/Ketnoiphancung.png" alt="System Architecture" width="800"/>
 
 ### ⛓️‍💥 Hướng dẫn cắm dây
 | Thiết bị        | Chân trên thiết bị | Kết nối Arduino UNO | Ghi chú                         |
