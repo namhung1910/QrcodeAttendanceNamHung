@@ -27,7 +27,7 @@ LED_SERVICE_PORT = 6000
 
 def send_command_to_led_service(cmd):
     try:
-        with socket.create_connection((LED_SERVICE_HOST, LED_SERVICE_PORT), timeout=10) as sock:
+        with socket.create_connection((LED_SERVICE_HOST, LED_SERVICE_PORT), timeout=1) as sock:
             sock.sendall((cmd+"\n").encode('utf-8'))
             response = sock.recv(1024).decode('utf-8').strip()
             # Có thể in response nếu cần debug

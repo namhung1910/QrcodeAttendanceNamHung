@@ -125,7 +125,7 @@ def load_data():
             if rec.get("status", "Điểm danh") == "Vắng":
                 sotiet = 4
             else:
-                if delta <= 10:
+                if delta <= 1:
                     sotiet = 0
                 elif delta <= 55:
                     sotiet = 1
