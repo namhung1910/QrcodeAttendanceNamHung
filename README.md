@@ -29,6 +29,10 @@ HỆ THỐNG ĐIỂM DANH SINH VIÊN </h1>
 - **📊 Quản lý dữ liệu:** Dữ liệu điểm danh được lưu trong MongoDB, có thể xem lịch sử và xuất ra file CSV.
 - **🖥️ Giao diện thân thiện:** Sử dụng Tkinter cho giao diện quản lý và Flask cho xử lý điểm danh qua web.
 
+## 🏗️ HỆ THỐNG
+<p align="center">
+  <img src="images/Quytrinhdiemdanh.png" alt="System Architecture" width="800"/>
+</p>
 ---
 
 ## 📂 Cấu trúc dự án
